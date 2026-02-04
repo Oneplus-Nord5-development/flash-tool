@@ -217,7 +217,7 @@ function flash_images() {
     
     # Post-flash menu
     pf_choice=$(whiptail --title "Post-Flash Actions" --menu "Choose what to do next:" 15 78 3 \
-    "1" "Lock Bootloader (Relock)" \
+    "1" "Lock Bootloader (Relock wipes data)" \
     "2" "Keep Bootloader Unlocked (Wipe Data)" \
     "3" "Do Nothing (Exit Tool)" 3>&1 1>&2 2>&3)
     
